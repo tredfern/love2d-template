@@ -3,6 +3,6 @@
 -- This software is released under the MIT License.
 -- https://opensource.org/licenses/MIT
 
-function love.draw()
-  love.graphics.print("I AM ALIVE!")
+function love.conf(t)
+  t.window.title = "Template"
 end
